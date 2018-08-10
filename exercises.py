@@ -24,9 +24,9 @@ fav_food='steak'
 fav_color='black' 
 fav_song="Don't stop believin"
 
-myList=[first_name,last_name,birth_place,hobby,role_model,famous_quote,fav_president,fav_food,fav_color,fav_song]
-for i in range(len(myList)):
-    print(myList[i])
+my_list=[first_name,last_name,birth_place,hobby,role_model,famous_quote,fav_president,fav_food,fav_color,fav_song]
+for i in range(len(my_list)):
+    print(my_list[i])
 
 
 #2 String Concatenation
@@ -70,9 +70,9 @@ number_of_siblings=3
 
 
 #Assign your own number values to each variable and print each variable.
-myList=[age, weight, shoe_size, fav_number, yen_rate, bitcoin_value, todays_temperature, hawaii_population, countries_traveled, number_of_siblings]
-for i in range(len(myList)):
-    print(myList[i])
+my_list=[age, weight, shoe_size, fav_number, yen_rate, bitcoin_value, todays_temperature, hawaii_population, countries_traveled, number_of_siblings]
+for i in range(len(my_list)):
+    print(my_list[i])
 
 #5 Number as Strings Concatenation
 #Declare a variable named self_intro that creates the following sentence:
@@ -276,6 +276,6 @@ is_hungry=True
 has_a_dog=True
 
 #Print each variable that you declare.
-myList={"female":female, "american":american, "likes_coding":likes_coding, "is_hungry":is_hungry, "has_a_dog":has_a_dog}
-for i in myList:
-    print(i,myList[i])
+my_list={"female=":female, "american=":american, "likes_coding=":likes_coding, "is_hungry=":is_hungry, "has_a_dog=":has_a_dog}
+for i in my_list:
+    print(i,my_list[i])
